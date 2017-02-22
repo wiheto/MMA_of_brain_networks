@@ -4,7 +4,7 @@ Interactive figure, nifti templates and code for reproduceability of Thompson &a
 
 __It's current in press, link to study when published__
 
-__This repository is under construction, this will be removed when it is complete__
+__This repository is under construction, this line will be removed when it is complete. Still to be done: reprodeability section__
 
 ## Structure of repository
 
@@ -30,4 +30,4 @@ Contains code to remake the analysis. See readme in `./reproduceability` for inf
 
 ## Templates
 
-Contains the nifti templates that are part of the
+Contains the nifti templates that are derived in the article. The files are described in the article. The compressed file ending with `_selected` are the ones contained to be possibly interesting. This was however a subjective decision. The compressed file ending with `_all` contains all templates.   
