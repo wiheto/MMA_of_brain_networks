@@ -33,8 +33,4 @@ Interactive figure: prepare_network_view.py / prepare_network_view.ipynb
 
 ### Additional files
 
-Coming soon (.txt of network selection)
-
-# structure of ./clean
-
-I will however be working on transforming the entire pipeline to python and will be found in "./clean/"
+__Coming soon (.txt of network selection)__
