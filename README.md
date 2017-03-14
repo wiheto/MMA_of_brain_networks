@@ -1,10 +1,8 @@
 # MMA_of_brain_networks
 
-Interactive figure, nifti templates and code for reproduceability of Thompson &amp; Fransson (2017)
+Interactive figure, nifti templates and code for reproduceability of Thompson &amp; Fransson (2017), Scientific Reports. http://www.nature.com/articles/srep44259
 
-__It's current in press, link to study when published__
-
-__This repository is under construction, this line will be removed when it is complete. Still to be done: reprodeability section__
+__This repository is under construction, this line will be removed when it is complete. Still to be done: reprodeability/clean and network lists.__
 
 ## Structure of repository
 
@@ -22,7 +20,7 @@ The structure of the repository is as follows:
 
 ## Interactive figure
 
-The interactive figure (showing 1b with roll over) is a .html file. It does not seem possible for github to display it as it is and needs to be downloaded and opened in the browser. I will try and embed this to be viewed online at some point (probably has to be with a different tool than plot.ly as the html file is too large to be displayed at Github.). 
+The interactive figure (showing 1b with roll over) is a .html file. It does not seem possible for github to display it as it is and needs to be downloaded and opened in the browser. I will try and embed this to be viewed online at some point (probably has to be with a different tool than plot.ly as the html file is too large to be displayed at Github.).
 
 ## Reproduceability
 
