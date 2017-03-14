@@ -9,6 +9,8 @@ As this is what I have done. This code is getting stored in `./as_is` (I am comm
 
 As the `./as_is` is far from a useful way for anyone to redo the analysis, I will be adding a `./clean` which will be in python the entire way and perform the same analysis.  
 
+Python files also include jupyter notebook versions for readability purposes.
+
 # Structure of ./clean
 
 Once ./as_is is finished I will get working on ./clean
@@ -29,14 +31,18 @@ export to nii.
 
 ### In python
 
-Interaction with neurosynth
+Interaction with neurosynth.
+
+    - Get articles associated with each term (queryNeurosynthConditionally.py / queryNeurosynthConditionally.ipynb ) (this file is badly named as the conditional part is actually done in the next step)
+    - Perform neurosynths comparision for different terms conditionally ( performMMA.py / performMMA.ipynb )
 
 Plot interactive figure
 
-For reproducibility purposes all this code is getting posted here "./used_in_analysis/".
+    - prepare_network_view.py / prepare_network_view.ipynb
 
-I will however be working on transforming the entire pipeline to python and will be found in "./clean/"
 
-### CSV files
+### Data files
 
 Pubmed selection.
+
+Cytoscape node placement
