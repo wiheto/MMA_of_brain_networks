@@ -13,30 +13,23 @@ As the `./as_is` is far from a useful way for anyone to redo the analysis, I wil
 
 Once ./as_is is finished I will get working on ./clean
 
-# Languages of ./as_is:
+# Structure of ./as_is:
 
-### In matlab
+The code takes you from querying pubmed for network terms, using neurosynth for the conditional metaanalysis, and infomap clustering.
 
-Query pubmed.
+Matlab requirements are found in `matlabrequirements.m`
 
-Perform network analysis
+`scrape_pubmed.m` Query pubmed for terms including: `term + "network"` where terms are taken from the neurosynth terms.
 
-Plot surface brains of network masks
+*Python code coming soon for neurosynth*
 
-Perform network theory analysis
+`from_neurosynthresults_to_infomapclustering.m` continues where the python code leaves off. This code takes you from the results from the metaanalysis step to creating hierarchical infomap clustering. 
 
-export to nii.
+### Additional files
 
-### In python
+Coming soon (.txt of network selection)
 
-Interaction with neurosynth
 
-Plot interactive figure
-
-For reproducibility purposes all this code is getting posted here "./used_in_analysis/".
+# structure of ./clean
 
 I will however be working on transforming the entire pipeline to python and will be found in "./clean/"
-
-### CSV files
-
-Pubmed selection.
