@@ -15,34 +15,26 @@ Python files also include jupyter notebook versions for readability purposes.
 
 Once ./as_is is finished I will get working on ./clean
 
-# Languages of ./as_is:
+# Structure of ./as_is:
 
-### In matlab
+The code takes you from querying pubmed for network terms, using neurosynth for the conditional metaanalysis, and infomap clustering.
 
-Query pubmed.
+Matlab requirements are found in `matlabrequirements.m`
 
-Perform network analysis
+`scrape_pubmed.m` Query pubmed for terms including: `term + "network"` where terms are taken from the neurosynth terms.
 
-Plot surface brains of network masks
+Get articles associated with each term (`queryNeurosynthConditionally.py` / `queryNeurosynthConditionally.ipynb` ) (this file is badly named as the conditional part is actually done in the next step)
 
-Perform network theory analysis
+Perform neurosynths comparision for different terms conditionally ( `performMMA.py` / `performMMA.ipynb` )
 
-export to nii.
+`from_neurosynthresults_to_infomapclustering.m` continues where the python code leaves off. This code takes you from the results from the metaanalysis step to creating hierarchical infomap clustering.
 
-### In python
+Interactive figure: prepare_network_view.py / prepare_network_view.ipynb
 
-Interaction with neurosynth.
+### Additional files
 
-    - Get articles associated with each term (queryNeurosynthConditionally.py / queryNeurosynthConditionally.ipynb ) (this file is badly named as the conditional part is actually done in the next step)
-    - Perform neurosynths comparision for different terms conditionally ( performMMA.py / performMMA.ipynb )
+Coming soon (.txt of network selection)
 
-Plot interactive figure
+# structure of ./clean
 
-    - prepare_network_view.py / prepare_network_view.ipynb
-
-
-### Data files
-
-Pubmed selection.
-
-Cytoscape node placement
+I will however be working on transforming the entire pipeline to python and will be found in "./clean/"
